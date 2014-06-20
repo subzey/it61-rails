@@ -25,6 +25,9 @@ module It61Rails
 
     config.assets.precompile += %w( editor.js )
 
+    # Для того, чтобы подхватывались фонты, когда bootstrap устанавливается через bower.
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'fonts', 'bootstrap-sass')
+
     config.responders.flash_keys = [:success, :error]
   end
 end

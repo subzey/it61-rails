@@ -1,0 +1,51 @@
+{
+  "name": "it61-rails",
+  "version": "0.0.0",
+  "homepage": "https://github.com/IT61/it61-rails",
+  "authors": [
+    "Alex Vasyutin <alex.vasyutin@gmail.com>"
+  ],
+  "description": "Сайт Ростовского IT-сообщества",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ],
+  "install" : {
+    "path": {
+      "scss": "vendor/assets/stylesheets",
+      "css": "vendor/assets/stylesheets",
+      "js": "vendor/assets/javascripts",
+      "eot": "vendor/assets/fonts",
+      "svg": "vendor/assets/fonts",
+      "ttf": "vendor/assets/fonts",
+      "woff": "vendor/assets/fonts"
+    },
+    "sources": {
+      "bootstrap-sass": [
+        "bower_components/bootstrap-sass/vendor/assets/stylesheets/**/*.scss",
+        "bower_components/bootstrap-sass/vendor/assets/javascripts/**/*.js",
+        "bower_components/bootstrap-sass/vendor/assets/fonts/**/*"
+      ],
+      "ace-builds": [
+        "bower_components/ace-builds/src/**/*.js"
+      ],
+      "marked": [
+        "bower_components/marked/lib/marked.js"
+      ]
+    },
+    "ignore": []
+  },
+  "dependencies": {
+    "jquery": "1.11.1",
+    "jquery-ujs": "latest",
+    "ace-builds": "~1.1",
+    "marked": "0.3.2",
+    "bootstrap-sass": "git://github.com/twbs/bootstrap-sass.git#master"
+  }
+}

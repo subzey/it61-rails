@@ -15,18 +15,15 @@ gem 'carrierwave'
 gem 'high_voltage', '~> 2.1.0'
 
 gem 'sass-rails', '~> 4.0.3'
+gem 'compass-rails'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'slim-rails'
-gem 'bootstrap-sass'
 gem 'bootstrap_form'
-gem 'compass-rails'
-gem 'marked-rails'
 gem 'redcarpet'
 gem 'styx'
 gem 'draper'
 
-gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
